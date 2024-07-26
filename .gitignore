@@ -1,0 +1,6 @@
+# created by virtualenv automatically
+./Scripts
+./Lib
+Lib
+Scripts
+pyvenv.cfg
