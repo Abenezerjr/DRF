@@ -9,6 +9,7 @@ def movie_list(request):
     serializer= MovieSeralizer(movie,many=True)
     return Response(serializer.data)
 
+
 @api_view()
 def movie_details(request,pk):
     movie=Movie.objects.get(id=pk)
